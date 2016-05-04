@@ -1,5 +1,7 @@
+package proxydemo;
+
 /**
- * Created by thinkpad on 2016/5/3.
+ * 被代理的接口
  */
 public interface Sourceable {
     void pro();

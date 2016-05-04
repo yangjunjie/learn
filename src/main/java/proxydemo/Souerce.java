@@ -1,5 +1,7 @@
+package proxydemo;
+
 /**
- * Created by thinkpad on 2016/5/3.
+ * 真实类
  */
 public class Souerce implements Sourceable {
     public void pro() {

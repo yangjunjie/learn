@@ -1,10 +1,10 @@
-import sun.reflect.Reflection;
+package proxydemo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
- * Created by thinkpad on 2016/5/3.
+ * 代理类
  */
 public class Proxyobj implements InvocationHandler {
 
