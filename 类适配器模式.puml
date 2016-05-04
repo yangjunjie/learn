@@ -1,0 +1,13 @@
+@startuml
+class Source {
++ void method1()
+}
+interface Targetable{
++ void method1()
++ void method2()
+}
+
+class Adapter extends Source implements Targetable {
++ void method2()
+}
+@enduml

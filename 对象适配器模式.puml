@@ -1,0 +1,18 @@
+@startuml
+class Souerce
+interface Targetable
+class Adapter
+
+Adapter ..>Souerce
+Adapter..|>Targetable
+
+Targetable : method1()
+Targetable : method2()
+
+Adapter : - Souerce souerce
+
+Adapter : +method1(){souerce.method1()}
+Adapter : +method2()
+Adapter : +Adapter(Source source)
+Souerce : method1()
+@enduml
